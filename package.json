@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "lucide-react": "^1.70.0",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
