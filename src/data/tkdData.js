@@ -612,3 +612,251 @@ export const VocabularyData = [
         english: "circular"
     }
 ];
+
+export const quizData = [
+    {
+        id: 1,
+        gup: "10th Gup (White Belt)",
+        question: "What is the Korean term for 'Attention'?",
+        options: ["Charyot", "Kyong Ye", "Junbi", "Sogi"],
+        correct: "Charyot"
+    },
+    {
+        id: 2,
+        gup: "10th Gup (White Belt)",
+        question: "What is the weight distribution in Walking Stance (Gunnun Sogi)?",
+        options: ["70% rear / 30% front", "50% / 50%", "100% on front leg", "60% front / 40% rear"],
+        correct: "50% / 50%"
+    },
+    {
+        id: 3,
+        gup: "9th Gup (White Belt / Yellow Stripe)",
+        question: "How many movements are in the pattern Chon-Ji?",
+        options: ["19", "21", "24", "28"],
+        correct: "19"
+    },
+    {
+        id: 4,
+        gup: "9th Gup (White Belt / Yellow Stripe)",
+        question: "What does 'Chon-Ji' literally mean?",
+        options: ["Founder of Korea", "The Heaven and the Earth", "A loyal patriot", "A Buddhist monk"],
+        correct: "The Heaven and the Earth"
+    },
+    {
+        id: 5,
+        gup: "8th Gup (Yellow Belt)",
+        question: "Dan-Gun is named after the legendary founder of Korea in what year?",
+        options: ["1876 B.C.", "2333 B.C.", "686 A.D.", "1938 A.D."],
+        correct: "2333 B.C."
+    },
+    {
+        id: 6,
+        gup: "6th Gup (Green Belt)",
+        question: "What is the weight distribution in L-Stance (Niunja Sogi)?",
+        options: ["50% / 50%", "70% rear leg / 30% front leg", "80% front / 20% rear", "100% on standing leg"],
+        correct: "70% rear leg / 30% front leg"
+    },
+    {
+        id: 7,
+        gup: "10th Gup (White Belt)",
+        question: "What is the Korean term for 'Bow'?",
+        options: ["Charyot", "Kyong Ye", "Junbi", "Sijak"],
+        correct: "Kyong Ye"
+    },
+    {
+        id: 8,
+        gup: "10th Gup (White Belt)",
+        question: "What is the Korean term for 'Practice Suit' or uniform?",
+        options: ["Do Jang", "Do Bok", "Sogi", "Tae"],
+        correct: "Do Bok"
+    },
+    {
+        id: 9,
+        gup: "10th Gup (White Belt)",
+        question: "What is the Korean term for 'Training Hall'?",
+        options: ["Do Bok", "Do Jang", "Gup", "Dan"],
+        correct: "Do Jang"
+    },
+    {
+        id: 10,
+        gup: "9th Gup (White Belt / Yellow Stripe)",
+        question: "What does the diagram (+) of Chon-Ji represent?",
+        options: ["A capital letter I", "The intersection of Heaven and Earth", "A scholar", "A cross"],
+        correct: "The intersection of Heaven and Earth" // or diagram shape "+"
+    },
+    {
+        id: 11,
+        gup: "9th Gup (White Belt / Yellow Stripe)",
+        question: "What is the width of a Walking Stance (Gunnun Sogi)?",
+        options: ["1 shoulder width wide", "2 shoulder widths wide", "Line-to-line", "Feet together"],
+        correct: "1 shoulder width wide"
+    },
+    {
+        id: 12,
+        gup: "8th Gup (Yellow Belt)",
+        question: "How many movements are in the pattern Dan-Gun?",
+        options: ["19", "21", "24", "28"],
+        correct: "21"
+    },
+    {
+        id: 13,
+        gup: "8th Gup (Yellow Belt)",
+        question: "What is the diagram shape of Dan-Gun?",
+        options: ["Cross (+)", "Capital letter I", "Square", "H-shape"],
+        correct: "Capital letter I"
+    },
+    {
+        id: 14,
+        gup: "7th Gup (Yellow Belt / Green Stripe)",
+        question: "What is the name of the pattern practiced at 7th Gup?",
+        options: ["Chon-Ji", "Dan-Gun", "Do-San", "Won-Hyo"],
+        correct: "Do-San"
+    },
+    {
+        id: 15,
+        gup: "7th Gup (Yellow Belt / Green Stripe)",
+        question: "How many movements are in Do-San?",
+        options: ["21", "24", "28", "32"],
+        correct: "24"
+    },
+    {
+        id: 16,
+        gup: "7th Gup (Yellow Belt / Green Stripe)",
+        question: "Do-San is the pseudonym of the patriot Ahn Chang-Ho. What do his 24 movements represent?",
+        options: ["His age when he died", "His entire life devoted to Korean education and independence", "The year he was born", "The number of provinces in Korea"],
+        correct: "His entire life devoted to Korean education and independence"
+    },
+    {
+        id: 17,
+        gup: "6th Gup (Green Belt)",
+        question: "What is the name of the pattern for 6th Gup?",
+        options: ["Do-San", "Won-Hyo", "Yul-Gok", "Joong-Gun"],
+        correct: "Won-Hyo"
+    },
+    {
+        id: 18,
+        gup: "6th Gup (Green Belt)",
+        question: "How many movements are in Won-Hyo?",
+        options: ["24", "28", "32", "38"],
+        correct: "28"
+    },
+    {
+        id: 19,
+        gup: "6th Gup (Green Belt)",
+        question: "Who was Won-Hyo, whom the pattern is named after?",
+        options: ["A famous king of the Silla Dynasty", "The monk who introduced Buddhism to Korea in 686 A.D.", "A military general", "A Korean independence fighter"],
+        correct: "The monk who introduced Buddhism to Korea in 686 A.D."
+    },
+    {
+        id: 20,
+        gup: "6th Gup (Green Belt)",
+        question: "What is the length of an L-Stance (Niunja Sogi) measured from toe to outer edge of back foot?",
+        options: ["1 shoulder width long", "1.5 shoulder widths long", "2 shoulder widths long", "3 foot lengths"],
+        correct: "1.5 shoulder widths long"
+    },
+    {
+        id: 21,
+        gup: "5th Gup (Green Belt / Blue Stripe)",
+        question: "What is the name of the pattern practiced at 5th Gup?",
+        options: ["Won-Hyo", "Yul-Gok", "Joong-Gun", "Toi-Gye"],
+        correct: "Yul-Gok"
+    },
+    {
+        id: 22,
+        gup: "5th Gup (Green Belt / Blue Stripe)",
+        question: "How many movements are in the pattern Yul-Gok?",
+        options: ["28", "32", "38", "37"],
+        correct: "38"
+    },
+    {
+        id: 23,
+        gup: "5th Gup (Green Belt / Blue Stripe)",
+        question: "What do the 38 movements of Yul-Gok represent?",
+        options: ["His age when he died", "His birthplace on the 38th degree latitude", "The number of books he wrote", "The year of his birth"],
+        correct: "His birthplace on the 38th degree latitude"
+    },
+    {
+        id: 24,
+        gup: "4th Gup (Blue Belt)",
+        question: "What is the name of the pattern for 4th Gup?",
+        options: ["Yul-Gok", "Joong-Gun", "Hwa-Rang", "Choong-Moo"],
+        correct: "Joong-Gun"
+    },
+    {
+        id: 25,
+        gup: "4th Gup (Blue Belt)",
+        question: "How many movements are in Joong-Gun?",
+        options: ["32", "38", "36", "24"],
+        correct: "32"
+    },
+    {
+        id: 26,
+        gup: "4th Gup (Blue Belt)",
+        question: "Whom is Joong-Gun named after?",
+        options: ["A famous Silla general", "An Joong-Gun, who assassinated Hiro-Bumi Ito", "A Korean independence poet", "The founder of modern Taekwon-Do"],
+        correct: "An Joong-Gun, who assassinated Hiro-Bumi Ito"
+    },
+    {
+        id: 27,
+        gup: "3rd Gup (Blue Belt / Red Stripe)",
+        question: "What is the name of the pattern practiced at 3rd Gup?",
+        options: ["Joong-Gun", "Toi-Gye", "Hwa-Rang", "Choong-Moo"],
+        correct: "Toi-Gye"
+    },
+    {
+        id: 28,
+        gup: "3rd Gup (Blue Belt / Red Stripe)",
+        question: "How many movements are in Toi-Gye?",
+        options: ["32", "37", "38", "28"],
+        correct: "37"
+    },
+    {
+        id: 29,
+        gup: "3rd Gup (Blue Belt / Red Stripe)",
+        question: "What does the 37 movements of Toi-Gye represent?",
+        options: ["His birthplace on the 37th latitude", "His age", "The number of students he had", "The year he lived"],
+        correct: "His birthplace on the 37th latitude"
+    },
+    {
+        id: 30,
+        gup: "2nd Gup (Red Belt)",
+        question: "What is the name of the pattern for 2nd Gup?",
+        options: ["Toi-Gye", "Hwa-Rang", "Choong-Moo", "Kwang-Gae"],
+        correct: "Hwa-Rang"
+    },
+    {
+        id: 31,
+        gup: "2nd Gup (Red Belt)",
+        question: "How many movements are in Hwa-Rang?",
+        options: ["29", "39", "28", "32"],
+        correct: "29"
+    },
+    {
+        id: 32,
+        gup: "2nd Gup (Red Belt)",
+        question: "What is Hwa-Rang named after?",
+        options: ["A royal dynasty", "The Hwa-Rang youth corp group which originated in the Silla Dynasty", "A famous temple", "A mountain pass"],
+        correct: "The Hwa-Rang youth corp group which originated in the Silla Dynasty"
+    },
+    {
+        id: 33,
+        gup: "1st Gup (Red Belt / Black Stripe)",
+        question: "What is the name of the final color-belt pattern practiced at 1st Gup?",
+        options: ["Hwa-Rang", "Choong-Moo", "Kwang-Gae", "Po-Eun"],
+        correct: "Choong-Moo"
+    },
+    {
+        id: 34,
+        gup: "1st Gup (Red Belt / Black Stripe)",
+        question: "How many movements are in Choong-Moo?",
+        options: ["29", "32", "30", "38"],
+        correct: "30"
+    },
+    {
+        id: 35,
+        gup: "1st Gup (Red Belt / Black Stripe)",
+        question: "Who was Choong-Moo, whom the pattern is named after?",
+        options: ["Admiral Yi Sun-Sin of the Yi Dynasty", "A scholar from the Koryo Dynasty", "A famous Buddhist missionary", "An ancient king"],
+        correct: "Admiral Yi Sun-Sin of the Yi Dynasty"
+    }
+];
