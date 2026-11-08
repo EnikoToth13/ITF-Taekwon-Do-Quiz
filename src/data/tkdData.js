@@ -17,42 +17,48 @@ export const patternsData = [
         name: "Chon-Ji",
         gup: "9th Gup (White Belt / Yellow Stripe)",
         movements: 19,
-        meaning: "It means literally 'the Heaven the Earth'. Its is, in the Orient, interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern learned by the beginner. It consists of two similar parts, one to represent the Heaven and the other the Earth."
+        meaning: "It means literally 'the Heaven the Earth'. Its is, in the Orient, interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern learned by the beginner. It consists of two similar parts, one to represent the Heaven and the other the Earth.",
+        wikiTitle: "Taekwondo"
     },
     {
         id: "dan-gun",
         name: "Dan-Gun",
         gup: "8th Gup (Yellow Belt)",
         movements: 21,
-        meaning: "Named after the holy Dan-Gun, the legendary founder of Korea in the year 2333 B.C. He is said to be the grandson of the god of Heaven."
+        meaning: "Named after the holy Dan-Gun, the legendary founder of Korea in the year 2333 B.C. He is said to be the grandson of the god of Heaven.",
+        wikiTitle: "Dangun"
     },
     {
         id: "do-san",
         name: "Do-San",
         gup: "7th Gup (Yellow Belt / Green Stripe)",
         movements: 24,
-        meaning: "Pseudonym of the patriot Ahn Chang-Ho (1876–1938). The 24 movements represent his entire life which he devoted to furthering education of Korea and its independence movement."
+        meaning: "Pseudonym of the patriot Ahn Chang-Ho (1876–1938). The 24 movements represent his entire life which he devoted to furthering education of Korea and its independence movement.",
+        wikiTitle: "Ahn_Changho"
     },
     {
         id: "won-hyo",
         name: "Won-Hyo",
         gup: "6th Gup (Green Belt)",
         movements: 28,
-        meaning: "Won-Hyo was the noted monk who introduced Buddhism to the Silla Dynasty in the year 686 A.D."
+        meaning: "Won-Hyo was the noted monk who introduced Buddhism to the Silla Dynasty in the year 686 A.D.",
+        wikiTitle: "Wonhyo"
     },
     {
         id: "yul-gok",
         name: "Yul-Gok",
         gup: "5th Gup (Green Belt / Blue Stripe)",
         movements: 38,
-        meaning: "Yul-Gok is the pseudonym of a great philosopher Yi O (1536-1584) nicknamed 'Confucius of Korea'. The 38 movements of this pattern refer to his birthplace on 38° latitude and the diagram represents 'scholar'."
+        meaning: "Yul-Gok is the pseudonym of a great philosopher Yi O (1536-1584) nicknamed 'Confucius of Korea'. The 38 movements of this pattern refer to his birthplace on 38° latitude and the diagram represents 'scholar'.",
+        wikiTitle: "Yi_I"
     },
     {
         id: "joong-gun",
         name: "Joong-Gun",
         gup: "4th Gup (Blue Belt)",
         movements: 32,
-        meaning: "Joong-Gun is named after the patriot An Joong-Gun who assassinated Hiro-Bumi Ito, the first Japanese governor-general of Korea, known as the man who played the leading part in the Korean-Japan merger. There are 32 movements in this pattern to represent Mr. An's age when he was executed at Lui-Shung prison (1910)."
+        meaning: "Joong-Gun is named after the patriot An Joong-Gun who assassinated Hiro-Bumi Ito, the first Japanese governor-general of Korea, known as the man who played the leading part in the Korean-Japan merger. There are 32 movements in this pattern to represent Mr. An's age when he was executed at Lui-Shung prison (1910).",
+        wikiTitle: "An_Jung-geun"
 
     },
     {
@@ -60,21 +66,24 @@ export const patternsData = [
         name: "Toi-Gye",
         gup: "3rd Gup (Blue Belt / Red Stripe)",
         movements: 37,
-        meaning: "Toi-Gye is the pen name of the noted scholar Yi Hwang (16th century), an authority on neo-Confucianism. The 37 movements of this pattern refer to his birthplace on 37° latitude, the diagram represents 'scholar'."
+        meaning: "Toi-Gye is the pen name of the noted scholar Yi Hwang (16th century), an authority on neo-Confucianism. The 37 movements of this pattern refer to his birthplace on 37° latitude, the diagram represents 'scholar'.",
+        wikiTitle: "Yi_Hwang"
     },
     {
         id: "hwa-rang",
         name: "Hwa-Rang",
         gup: "2nd Gup (Red Belt)",
         movements: 29,
-        meaning: "Hwa-Rang is named after the Hwa-Rang youth group which originated in the Silla Dynasty in the eary 7th century. The 29 movements refer to the 29th Infantry Division, where Taekwon-Do developed into maturity."
+        meaning: "Hwa-Rang is named after the Hwa-Rang youth group which originated in the Silla Dynasty in the eary 7th century. The 29 movements refer to the 29th Infantry Division, where Taekwon-Do developed into maturity.",
+        wikiTitle: "Hwarang"
     },
     {
         id: "choong-moo",
         name: "Choong-Moo",
         gup: "1st Gup (Red Belt / Black Stripe)",
         movements: 30,
-        meaning: "Choong-Moo was the name given to the great Admiral Yi Soon-Sin of the Yi Dynasty. He was reputed to have invented the first armored battleship (kobukson) in 1592, which is said to be the precursor of the present day submarine. The reason this pattern ends with a left hand attack is to symbolize his regrettable death, having no chance to show his unrestrained potentiality checked by the forced reservation of his loyalty to the king."
+        meaning: "Choong-Moo was the name given to the great Admiral Yi Soon-Sin of the Yi Dynasty. He was reputed to have invented the first armored battleship (kobukson) in 1592, which is said to be the precursor of the present day submarine. The reason this pattern ends with a left hand attack is to symbolize his regrettable death, having no chance to show his unrestrained potentiality checked by the forced reservation of his loyalty to the king.",
+        wikiTitle: "Yi_Sun-sin"
     }
 ];
 
