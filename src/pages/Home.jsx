@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
         Learn and test your knowledge of ITF Taekwon-Do theory and vocabulary with our interactive study and quiz platform.
       </p>
       <div className="d-flex justify-content-center gap-3 mt-4">
-        <a href="/study" className="btn btn-primary btn-lg">Start Studying</a>
-        <a href="/quiz" className="btn btn-outline-secondary btn-lg">Take a Quiz</a>
+        <Link to="/study" className="btn btn-primary btn-lg">Start Studying</Link>
+        <Link to="/quiz" className="btn btn-outline-secondary btn-lg">Take a Quiz</Link>
       </div>
     </div>
   );
