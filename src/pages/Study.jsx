@@ -167,9 +167,6 @@ export default function Study() {
                   <div className="card-body flex-grow-1">
                     <h6 className="card-subtitle mb-2 text-muted fw-bold">{pattern.gup}</h6>
                     <p className="card-text">
-                      <strong>Diagram:</strong> {pattern.diagram}
-                    </p>
-                    <p className="card-text">
                       <strong>Meaning:</strong> {pattern.meaning}
                     </p>
 
