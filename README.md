@@ -1,16 +1,30 @@
-# React + Vite
+# ITF Taekwon-Do theory learning web application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application is an interactive site designated for ITF style Taekwon-Do color belts, to help them prepare for belt exams.
 
-Currently, two official plugins are available:
+## Features:
+### Interactive study hub:
+- **patterns:** learn about ITF patterns, that you can filter according to your belt rank
+- **stances:** learn the basic information of the stances you have in your patterns
+- **vocabulary:** learn the basic korean vocabulary according to your belt rank, including the basic commands, body parts and movement directions
+### External API:
+The study cards give a basic idea of pattern theory, but as a practitioner advances in belt ranks, more detail will be needed. That's why all patterns include a direct link to the correct historical person behing the pattern using fetch and async/await. Note that since the first pattern is not about a historical person, there is unfortunately no wikipedia page for more detailed info. However, if you want to know more in general about Taekwon-Do, follow the link unerneath the first pattern.
+### Theory quiz game:
+A multiple choice test, that the user can take based on their belt rank. When the test is finished, the user can see their results.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technology and Libraries:
+- **Frontend:** React
+- **Routing:** react-router-dom
+- **UI and Styling:** Bootstrap 5 / React-Bootstrap
+- **Icons:** lucide-react
+- **External API:** Wikipedia REST API
+- **Deployment:** GitHub Pages
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local setup
+To run this program locally you need to:
+**Clone the repository:**
+git clone https://github.com/EnikoToth13/ITF-Taekwon-Do-Quiz.git
+**Install dependencies:**
+npm install
+**Start server:**
+npm run dev
